@@ -1,0 +1,13 @@
+{
+  "name": "dialer",
+  "version": "1.0.0",
+  "description": "Single-file WebRTC intercom with its own numbering scheme",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-turn": "^0.0.6",
+    "socket.io": "^4.8.3"
+  }
+}
